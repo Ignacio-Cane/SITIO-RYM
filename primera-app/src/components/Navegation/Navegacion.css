@@ -1,0 +1,15 @@
+*{
+    font-family: "raleway";
+    color: #6ECCAF;
+}
+ul{
+    list-style-type: none;
+    
+}
+header{
+    background-color:#344d67 ;
+}
+.link{
+    text-decoration: none;
+    color: #6ECCAF;
+}

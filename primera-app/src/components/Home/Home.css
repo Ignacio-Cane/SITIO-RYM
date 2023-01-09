@@ -1,7 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "raleway";
+    text-decoration: none;
+}
+.principal{
+    height: 100vh;
+}
+
 .padre{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    background-color: #ffffffe6;
+    height: 500px;
+    width: 600px;
     
+}
+.lista{
+   margin-top: 100px;
+
+}
+.botones{
+        color:#6ECCAF ;
+        display: flex;
+        justify-content: center;
+        gap: 70px;
 }

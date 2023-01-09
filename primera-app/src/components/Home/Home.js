@@ -1,18 +1,19 @@
+import { Fragment } from "react";
 import ListaHome from "../ListaHome/ListaHome"
-import "./Home.css"
-
+import "./Home.css";
 export default function Home (){
     return(
-        <header className="container-fluid  d-flex flex-column justify-content-center align-items-center">
-            <div className="row padre">
-                <h1 className="">PROYECT - Rick and Morty </h1>
-                <nav>
-                    <ul>
-                        <ListaHome dato= "Characters" />
-                        <ListaHome dato= "Contact" />
-                    </ul>
-                </nav>
+            <div className="principal container-fluid d-flex justify-content-center align-items-center">
+                <main className="padre d-flex flex-column justify-content-center align-items-center">
+                    <h1 className="row justify-content-center">PROYECT - Rick and Morty </h1>
+                    <div className="row align-items-center lista">
+                        <ul className="botones">
+                            <ListaHome  dato= "Characters" infoPath="/Characters"/>
+                            <ListaHome  dato= "Contact" infoPath="/Contact" />
+                        </ul>
+                    </div>
+                </main>
             </div>
-        </header>
+       
     )
 } 

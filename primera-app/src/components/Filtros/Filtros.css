@@ -1,0 +1,15 @@
+.letra{
+    color: #6ECCAF;
+    margin-left: 10px;
+}
+.filtros{
+    color:#6ECCAF ;
+    background-color: #344D67;
+    border-radius: 1rem;
+}
+.form-check-input{
+    background-color: #b1f0dc;
+}
+.form-check-label{
+    font-size: 20px;
+}

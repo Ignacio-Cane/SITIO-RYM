@@ -1,0 +1,17 @@
+.letraFormulario{
+    color: #6ECCAF;
+}
+.form{
+    background-color: rgba(92, 117, 146,0.9) ;
+    margin: auto;
+    margin-top: 100px;
+    height: 70vh;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.enviar{
+    color: white;
+    background-color: #344D67!important ;
+}

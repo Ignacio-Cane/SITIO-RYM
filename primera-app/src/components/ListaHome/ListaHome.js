@@ -1,14 +1,12 @@
-
-
-export default function ListaHome ({dato}){
+import {Link} from "react-router-dom";
+import "./Botones.css";
+export default function ListaHome ({dato,infoPath}){
    
-    const mostrar =()=>{
-        console.log(dato)
-    }
+   
 
-return(
-    <li onClick={mostrar}>{dato}
-        
-    </li>
-)
+    return(
+        <li className="btn btn-secondary">
+            <Link className="estilo"  to={infoPath}>{dato}</Link> 
+        </li>
+    )
 }
